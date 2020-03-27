@@ -1,47 +1,9 @@
-<img alt="BUILDER" src="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6836fc105ad549a5b4bf144235b1a228" width="300" />
+# Gatsby Starer Builder.io
 
-Drag and drop page building with your code components. 
-
+Gatsby starter with drag + drop page building with your React components via Builder.io
 <br />
 <img src="https://imgur.com/HjBWIbv.gif" alt="Editor example" />
 
-<table style="width:100%;">
-  <tr>
-    <td width="50%">Register components</td>
-    <td>Rendered your visually created pages</td>
-  </tr width="50%">
-  <tr>
-    <td width="50%">
-<pre lang="tsx">
-import { Builder } from '@builder.io/react'
-&nbsp;
-// Register our heading component for use in 
-// the visual editor
-const Heading = props => (
-  &lt;h1 className={style}&gt;{props.title}&lt;/h1&gt;
-)
-&nbsp;
-Builder.registerComponent(Heading, { 
-&nbsp;&nbsp;name: 'Heading',
-&nbsp;&nbsp;inputs: [{ name: 'title', type: 'text' }]
-})
-</pre>
-    
-</td>
-    <td width="50%">
-<pre lang="tsx">
-import { BuilderComponent } from '@builder.io/react'
-&nbsp;
-// Include this in your app, and Builder.io will render  
-// the matching page by the current document's URL. Scroll 
-// down for more advanced options and examples
-export default let BuilderPage = () => (
-&nbsp;&nbsp;&lt;BuilderComponent name="page" /&gt;
-)
-</pre>
-    </td>
-  </tr>
-</table>
 
 ## Quick Start
 Clone this repository or use `gatsby new`
