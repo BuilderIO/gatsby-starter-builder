@@ -1,6 +1,7 @@
 const path = require('path');
 const config = require('./src/config');
 module.exports = {
+  pathPrefix: "/gatsby-starter-builder",
   siteMetadata: {
     title: 'Gatsby + Builder.io Starter',
     description:
