@@ -8,8 +8,8 @@ Gatsby starter with drag + drop page building with your React components via Bui
 
 ## Quick Start
 1.  **Sign up to Builder.io and Create a Gatsby site.**
-    Clone this repository or use `gatsby new`
 
+    Clone this repository or use `gatsby new`
     ```shell
     # create a new Gatsby site using this starter
     gatsby new my-builder-site https://github.com/BuilderIO/gatsby-starter-builder
