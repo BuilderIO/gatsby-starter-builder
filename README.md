@@ -7,17 +7,33 @@ Gatsby starter with drag + drop page building with your React components via Bui
 
 
 ## Quick Start
-Clone this repository or use `gatsby new`
+1.  **Sign up to Builder.io and Create a Gatsby site.**
+    Clone this repository or use `gatsby new`
 
-```sh
-gatsby new my-builder-site https://github.com/BuilderIO/gatsby-starter-builder
-```
+    ```shell
+    # create a new Gatsby site using this starter
+    gatsby new my-builder-site https://github.com/BuilderIO/gatsby-starter-builder
+    ```
 
-- Grab a free account at [builder.io](https://builder.io/fork-sample-org), this link will set you up with all the models used in the starter and some sample content to get you started.
+    - Grab a free account at [builder.io](https://builder.io/fork-sample-org), this link will set you up with all the models used in the starter and some sample content to get you started.
 
-- Find your [public API key](https://builder.io/account/organization) and add it to the [src/config.js](src/config.js)
+    - Find your [public API key](https://builder.io/account/organization) and add it to the [src/config.js](src/config.js)
 
-- Start building pages in Builder! Use the pre-built templates, and components to create exactly what you want. This starter uses [@builder.io/gatsby plugin](https://github.com/BuilderIO/builder/tree/master/packages/gatsby) to fetch all your published pages and add them to your Gatsby build.
+
+2.  **Start developing.**
+
+    Navigate into your new site’s directory and start it up.
+
+    ```shell
+    cd my-default-starter/
+    gatsby develop
+    ```
+
+    Then start building pages in Builder! Use the pre-built templates, and components to create exactly what you want. This starter uses [@builder.io/gatsby plugin](https://github.com/BuilderIO/builder/tree/master/packages/gatsby) to fetch all your published pages and add them to your Gatsby build.
+
+
+## 🧐 What's inside?
+This starter demonstrates creating dynamic pages in Builder.io on new URLs and generating them with Gatsby, as well as rendering specific parts of your site with Builder.io content via GraphQL queries (e.g. for pages, header, footer, etc)
 
 See: 
 - [src/templates/LandingPage.jsx](src/templates/LandingPage.jsx) for using GraphQL to query and render Builder.io components and pages manually in parts of your Gatsby site and content
@@ -113,7 +129,7 @@ Formats code and docs according to our style guidelines using `prettier`
 npm run format
 ```
 
-# CONTRIBUTING
+## CONTRIBUTING
 
 Contributions are always welcome, no matter how large or small.
 
