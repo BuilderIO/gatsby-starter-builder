@@ -5,19 +5,35 @@ Gatsby starter with drag + drop page building with your React components via Bui
 <br />
 <img src="https://imgur.com/HjBWIbv.gif" alt="Editor example" />
 
-
+---
 ## Quick Start
-Clone this repository or use `gatsby new`
+1.  **Sign up to Builder.io and Create a Gatsby site.**
+    Clone this repository or use `gatsby new`
 
-```sh
-gatsby new my-builder-site https://github.com/BuilderIO/gatsby-starter-builder
-```
+    ```shell
+    # create a new Gatsby site using this starter
+    gatsby new my-builder-site https://github.com/BuilderIO/gatsby-starter-builder
+    ```
 
-- Grab a free account at [builder.io](https://builder.io/fork-sample-org), this link will set you up with all the models used in the starter and some sample content to get you started.
+    - Grab a free account at [builder.io](https://builder.io/fork-sample-org), this link will set you up with all the models used in the starter and some sample content to get you started.
 
-- Find your [public API key](https://builder.io/account/organization) and add it to the [src/config.js](src/config.js)
+    - Find your [public API key](https://builder.io/account/organization) and add it to the [src/config.js](src/config.js)
 
-- Start building pages in Builder! Use the pre-built templates, and components to create exactly what you want. This starter uses [@builder.io/gatsby plugin](https://github.com/BuilderIO/builder/tree/master/packages/gatsby) to fetch all your published pages and add them to your Gatsby build.
+
+2.  **Start developing.**
+
+    Navigate into your new site’s directory and start it up.
+
+    ```shell
+    cd my-default-starter/
+    gatsby develop
+    ```
+
+    Then start building pages in Builder! Use the pre-built templates, and components to create exactly what you want. This starter uses [@builder.io/gatsby plugin](https://github.com/BuilderIO/builder/tree/master/packages/gatsby) to fetch all your published pages and add them to your Gatsby build.
+
+---
+## 🧐 What's inside?
+This starter demonstrates creating dynamic pages in Builder.io on new URLs and generating them with Gatsby, as well as rendering specific parts of your site with Builder.io content via GraphQL queries (e.g. for pages, header, footer, etc)
 
 See: 
 - [src/templates/LandingPage.jsx](src/templates/LandingPage.jsx) for using GraphQL to query and render Builder.io components and pages manually in parts of your Gatsby site and content
@@ -64,6 +80,7 @@ See:
 Our editor uses the preview URL you supply for live editing. Because the editor is on `https`, the preview might not work correctly if your development setup uses http. To fix this, change your development set up to serve using https. Or, as a workaround, on Chrome you can allow insecure content on localhost, by toggling the `insecure content` option here [chrome://settings/content/siteDetails?site=http%3A%2F%2Flocalhost%3A9009](chrome://settings/content/siteDetails?site=http%3A%2F%2Flocalhost%3A8000)
 
 
+---
 ## Prerequisites
 
 - Node
