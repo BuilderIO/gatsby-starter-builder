@@ -880,10 +880,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@builder.io/gatsby@1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@builder.io/gatsby/-/gatsby-1.0.7.tgz#4d544ec5788659b594476275b635eb65534c7b5d"
-  integrity sha512-stONbXNEDg3jXKwe6oc2D138pEcCIZCF8LO4nK5kTu+D7REyQx6M4NLbH2Tmg8H5mzjnmT6nhFdsDaGR1yp8sQ==
+"@builder.io/gatsby@1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@builder.io/gatsby/-/gatsby-1.0.8.tgz#4196940f319fd8175b3298bdef4b94954f9c9680"
+  integrity sha512-+n4+82SIraBdLr0c7IZxi/EjdW0BmG/H8R2lM31HA5pf9h9IDBHULk2g9kUXu/ZXaXUni9sZpQ7SfzOpbHyXBw==
   dependencies:
     "@babel/runtime" "^7.7.6"
     apollo-link "1.2.13"
