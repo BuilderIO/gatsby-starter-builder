@@ -1,6 +1,7 @@
 # Builder.io Gatsby Starter
 
 Gatsby starter with drag + drop page building with your React components via Builder.io's visual headless CMS
+
 <br />
 <br />
 <img src="https://imgur.com/HjBWIbv.gif" alt="Editor example" />
@@ -137,3 +138,5 @@ Contributions are always welcome, no matter how large or small.
 ## Learn more
 
 - [Official docs](https://www.builder.io/c/docs/getting-started)
+- [Gatsby + Shopify + Builder](https://github.com/BuilderIO/gatsby-builder-shopify) for a more through starter and sample integration with headless shopify.
+
