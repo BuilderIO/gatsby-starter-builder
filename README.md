@@ -28,9 +28,14 @@ Gatsby starter with drag + drop page building with your React components via Bui
     cd my-default-starter/
     gatsby develop
     ```
-
+        
     Then start building pages in Builder! Use the pre-built templates, and components to create exactly what you want. This starter uses [@builder.io/gatsby plugin](https://github.com/BuilderIO/builder/tree/master/packages/gatsby) to fetch all your published pages and add them to your Gatsby build.
-
+    
+ 3. **Trouble Shooting**
+    
+    If you're getting graphql errors such as landingPage can't be found then make sure you've used the [builder.io](https://builder.io/fork-sample-org) link from step 1 to create sample models in your own builder.io account - it won't work without them!
+    
+    When editing an existing page on builder.io such as the sample 'Home' and 'page 2' your changes won't have any effect in the preview unless you configure a preview url. A detailed explanation can be found here https://www.builder.io/c/docs/guides/preview-url but as a quick-start option you can simply change the url to a page that doesn't exist such as http://localhost:8000/__ instead of http://localhost:8000/page-2.
 
 ## 🧐 What's inside?
 This starter demonstrates creating dynamic pages in Builder.io on new URLs and generating them with Gatsby, as well as rendering specific parts of your site with Builder.io content via GraphQL queries (e.g. for pages, header, footer, etc)
