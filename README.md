@@ -31,8 +31,11 @@ Gatsby starter with drag + drop page building with your React components via Bui
 
     Then start building pages in Builder! Use the pre-built templates, and components to create exactly what you want. This starter uses [@builder.io/gatsby plugin](https://github.com/BuilderIO/builder/tree/master/packages/gatsby) to fetch all your published pages and add them to your Gatsby build.
 
+3. **Deploy.**
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/BuilderIO/gatsby-starter-builder)
+
+
 For continuous deployment from netlify <> Builder.io :
 - Create a [build hook](https://docs.netlify.com/configure-builds/build-hooks/) in netlify
 - Add the build hook from last step to Builder.io global webhooks in your new [space settings](https://builder.io/account/space).
