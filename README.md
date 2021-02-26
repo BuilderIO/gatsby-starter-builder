@@ -146,9 +146,8 @@ Contributions are always welcome, no matter how large or small.
 ## Learn more
 
 - [Official docs](https://www.builder.io/c/docs/getting-started)
-## Gatsby starters and resources:
 
-More Gatsby + Builder.io resources:
+## Gatsby starters and resources:
 
 | Resource | description |
 | --- | --- |
