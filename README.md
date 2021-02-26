@@ -146,3 +146,13 @@ Contributions are always welcome, no matter how large or small.
 ## Learn more
 
 - [Official docs](https://www.builder.io/c/docs/getting-started)
+## Gatsby starters and resources:
+
+More Gatsby + Builder.io resources:
+
+| Resource | description |
+| --- | --- |
+| [@Builder.io/gatsby plugin](https://github.com/BuilderIO/builder/tree/master/packages/gatsby) | PLugin for sourcing content from Builder.io to Gatsby |
+| [Minimal starter](https://github.com/BuilderIO/builder/tree/master/examples/gatsby-minimal-starter) | example of using Builder.io to build landing pages in Gatsby |
+|  [Headless Shopify Store](https://github.com/BuilderIO/gatsby-builder-shopify) | Starter kit for building headless shopify storefronts with GatsbyJS and Builder.io [Demo](https://builder-shopify-starter.firebaseapp.com/) |
+
