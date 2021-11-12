@@ -7,7 +7,7 @@ Gatsby starter with drag + drop page building with your React components via Bui
 
 ## Quick Start
 
-1. **Sign up to Builder.io and Create a Gatsby site.**
+1. **Sign up at Builder.io and Create a Gatsby site.**
 
    - Clone this repository or use `gatsby new`
 
@@ -16,9 +16,21 @@ Gatsby starter with drag + drop page building with your React components via Bui
    gatsby new my-builder-site https://github.com/BuilderIO/gatsby-starter-builder
    ```
 
-   - Grab a free account at [builder.io](https://builder.io/fork-sample-org), this link will set you up with all the models used in the starter and some sample content to get you started.
+   - Grab a free account at [builder.io](https://builder.io/signup) and create a new space. Then return to this page and follow this [link](https://builder.io/fork-sample-org) to get set up with all the models used in this starter and some sample content to get you started.
 
-   - Find your [public API key](https://builder.io/account/organization) and add it to the [src/config.js](src/config.js)
+   - In Builder.io, click on the Account icon on the left sidenav.
+
+   <figure>
+     <img src="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2Fd26eb45cd52a4cada42413cd5c99419d"  alt="Account icon in left sidenav" width="200" style="display:  block; margin: auto"/>
+   </figure>
+
+   - Change the Site URL to `http://localhost:8000` and copy the [Public API Key](https://builder.io/account/space).
+
+   - In your code editor, add the Public API Key you just copied to [src/config.js](src/config.js)
+
+    ```shell
+    builderAPIKey: '59bb518773c14842921abe05d5e2bee3' <-- replace this with your API Key
+    ```
 
 2. **Start developing.**
 
@@ -71,7 +83,7 @@ Builder.registerComponent(SimpleText, {
 });
 ```
 
-Then import it in the template or in your (builder-settings.js)[src/builder-settings.js]
+Then import it in the template or in your [builder-settings.js](src/builder-settings.js)
 
 ```tsx
 import './components/simple-text';
