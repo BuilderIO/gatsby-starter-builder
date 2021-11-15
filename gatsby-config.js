@@ -24,11 +24,10 @@ module.exports = {
     {
       resolve: '@builder.io/gatsby',
       options: {
-        /** TODO: update this with your API key! */
         publicAPIKey: config.builderAPIKey,
         templates: {
-          // Render every `page` model as a new page using the /page.tsx template
-          // based on the URL provided in Builder.io
+          // Render every `landingPage` model as a new page using the 
+          // src/templates/LandingPage.jsx template based on the URL provided in Builder.io
           landingPage: path.resolve('src/templates/LandingPage.jsx')
         }
       }
