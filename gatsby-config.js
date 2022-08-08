@@ -1,7 +1,7 @@
 const path = require('path');
 const config = require('./src/config');
 module.exports = {
-  pathPrefix: "/gatsby-starter-builder",
+  pathPrefix: '/gatsby-starter-builder',
   siteMetadata: {
     title: 'Gatsby + Builder.io Starter',
     description:
@@ -26,7 +26,7 @@ module.exports = {
       options: {
         publicAPIKey: config.builderAPIKey,
         templates: {
-          // Render every `landingPage` model as a new page using the 
+          // Render every `landingPage` model as a new page using the
           // src/templates/LandingPage.jsx template based on the URL provided in Builder.io
           landingPage: path.resolve('src/templates/LandingPage.jsx')
         }
