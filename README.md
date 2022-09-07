@@ -59,7 +59,7 @@ This starter demonstrates creating dynamic pages in Builder.io on new URLs and g
 See:
 
 - [src/templates/LandingPage.jsx](src/templates/LandingPage.jsx) for using GraphQL to query and render Builder.io components and pages manually in parts of your Gatsby site and content
-- [src/layouts/PageLayout.jsx](src/layouts/PageLayout.jsx) for an example on wrapping your pages with conent from `header` and `footer` model entries.
+- [src/layouts/PageLayout.jsx](src/layouts/PageLayout.jsx) for an example on wrapping your pages with content from `header` and `footer` model entries.
 - [@builder.io/gatsby](https://github.com/builderio/builder/tree/master/packages/gatsby) the plugin used in this starter to generate pages dynamically.
 
 ### Using your custom components in the editor
@@ -159,6 +159,6 @@ Contributions are always welcome, no matter how large or small.
 
 | Resource                                                                                            | description                                                                                                                                 |
 | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| [@Builder.io/gatsby plugin](https://github.com/BuilderIO/builder/tree/master/packages/gatsby)       | PLugin for sourcing content from Builder.io to Gatsby                                                                                       |
-| [Minimal starter](https://github.com/BuilderIO/builder/tree/master/examples/gatsby-minimal-starter) | example of using Builder.io to build landing pages in Gatsby                                                                                |
+| [@Builder.io/gatsby plugin](https://github.com/BuilderIO/builder/tree/master/packages/gatsby)       | Plugin for sourcing content from Builder.io to Gatsby                                                                                       |
+| [Minimal starter](https://github.com/BuilderIO/builder/tree/master/examples/gatsby-minimal-starter) | Example of using Builder.io to build landing pages in Gatsby                                                                                |
 | [Headless Shopify Store](https://github.com/BuilderIO/gatsby-builder-shopify)                       | Starter kit for building headless shopify storefronts with GatsbyJS and Builder.io [Demo](https://builder-shopify-starter.firebaseapp.com/) |
