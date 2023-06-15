@@ -1,4 +1,4 @@
-# Builder.io Gatsby Starter
+# Builder.io Gatsby Example
 
 Gatsby starter with drag + drop page building with your React components via Builder.io's visual headless CMS
 <br />
